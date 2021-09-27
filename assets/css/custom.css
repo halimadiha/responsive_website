@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(70 90 116);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(12 102 255);
+}
+
+
+.dropdown-menu {
+    background-color: #6a7a90;
+}
+.dropdown-item {
+    color: #ffffff;
+    
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffffcf;
+    background-color: #0c66ff0f;
+}
+.banner-section img{
+    height:  700px;
+    object-fit:cover;
+    object-position: bottom;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #00000021;
+}
+.card img{
+    height: 300px;
+}
+
+.color1{
+ background-color:#FDEBED ;
+
+}
+.color2{
+ background-color:#FFF7E8 ;
+} 
+.color3{
+ background-color:#EBF9F4 ;
+} 
+.color4{
+ background-color:#673ab71a;
+} 
+.btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
+    background-color: #212529;
+}
+.btn-dark {
+    background-color: #212529d9;
+}
+@media(max-width:767px ){
+    .banner-section img {
+    height:400px;
+
+}
+
+.banner-section{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.banner-section .container-md{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.banner-section img{
+    border-radius: 0px;
+}
+
+@media(max-width:575px ){
+    .banner-section img {
+    height:auto;
+
+}
+
